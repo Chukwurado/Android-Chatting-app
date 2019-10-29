@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/users_bottom_bar"
+        android:enabled="true"
+        android:title="Contact"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/chat_bottom_bar"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="Chats"/>
+
+    <item
+        android:id="@+id/signout_bottom_bar"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="Sign out"/>
+
+</menu>
